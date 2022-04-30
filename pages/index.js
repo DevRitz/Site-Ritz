@@ -42,7 +42,7 @@ export default function Home() {
 <>
 
       <Image
-      src={pub/img/R.png}
+      src={R.png}
       alt="Imagem quando n tem imagem"
       width={75}
       height= {72}
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <>
         <Image
-      src={pub/img/eu.jpg}
+      src={eu.jpg}
       alt="Imagem quando n tem imagem"
       width={650}
       height={650} />
@@ -101,7 +101,7 @@ export default function Home() {
     <footer className="rodape">
 <>
     <Image
-      src={pub/img/yin.png}
+      src={yin.png}
       alt="Imagem quando n tem imagem"
       width={48}
       height={48}/>
