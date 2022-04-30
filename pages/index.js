@@ -33,7 +33,7 @@ export default function Home() {
     showTime()
   }, 1000 );
   return (
-    <div className='oi'>
+    <div className="oi">
         <header className="cabecalho">
         <div>
             
