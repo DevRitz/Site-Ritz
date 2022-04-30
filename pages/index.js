@@ -101,7 +101,7 @@ export default function Home() {
     <footer className="rodape">
 <>
     <Image
-      src={ pub/img/yin.png}
+      src={pub/img/yin.png}
       alt="Imagem quando n tem imagem"
       width={48}
       height={48}/>
