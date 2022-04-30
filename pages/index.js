@@ -37,7 +37,12 @@ export default function Home() {
         <header className="cabecalho">
         <div>
             
-            <a href="https://matias.ma/nsfw/#_=">   <img className ="imagem-cabecalho" src="img/R.png" alt="Logo Ballerini"/></a> 
+            <a href="https://matias.ma/nsfw/#_=">  <Image
+      src={img/R.png}
+      alt="Imagem quando n tem imagem"
+      width="75px"
+      height="72px"
+    /> </a> 
            
         </div>
        
@@ -68,8 +73,12 @@ export default function Home() {
             </form>   
           
         </div>
+        <Image
+      src={img/eu.jpg}
+      alt="Imagem quando n tem imagem"
+      width="650px"
+      height="650px" />
           
-          <img className="conteudo-principal-imagem"src="img/eu.jpg" alt="Imagem da Balle Bot"/>
         </section>
         
         <section className="conteudo2">
@@ -83,7 +92,14 @@ export default function Home() {
     </main>
 
     <footer className="rodape">
-    <img className="rodape-imagem"src="img/yin.png" alt="rodapé balle"/>
+
+    <Image
+      src={img/yin.png}
+      alt="Imagem quando n tem imagem"
+      width="48px"
+      height="48px"/>
+
+    
     </footer>
 
     
