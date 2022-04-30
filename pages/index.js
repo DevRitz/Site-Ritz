@@ -37,12 +37,18 @@ export default function Home() {
         <header className="cabecalho">
         <div>
             
-            <a href="https://matias.ma/nsfw/#_=">  <Image
+      
+            <a href="https://matias.ma/nsfw/#_=">  
+<>
+
+      <Image
       src={img/R.png}
       alt="Imagem quando n tem imagem"
-      width="75px"
-      height="72px"
-    /> </a> 
+      width={75}
+      height= {72}
+/>
+    
+    </> </a> 
            
         </div>
        
@@ -73,12 +79,13 @@ export default function Home() {
             </form>   
           
         </div>
+        <>
         <Image
       src={img/eu.jpg}
       alt="Imagem quando n tem imagem"
-      width="650px"
-      height="650px" />
-          
+      width={650}
+      height={650} />
+          </>
         </section>
         
         <section className="conteudo2">
@@ -92,13 +99,13 @@ export default function Home() {
     </main>
 
     <footer className="rodape">
-
+<>
     <Image
       src={img/yin.png}
       alt="Imagem quando n tem imagem"
-      width="48px"
-      height="48px"/>
-
+      width={48}
+      height={48}/>
+</>
     
     </footer>
 
